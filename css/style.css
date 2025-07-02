@@ -75,3 +75,62 @@ button:hover {
   font-size: 1.4em;
   margin: 0;
 }
+/* ✅ Responsive for mobile devices */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .sidebar {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button_box {
+    width: 100%;
+    font-size: 1.1em;
+  }
+
+  #field {
+    padding: 15px;
+    min-width: auto;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cell {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    margin: 3px;
+  }
+
+  #titleTurns {
+    font-size: 1em;
+  }
+
+  #numberTurns {
+    font-size: 1.6em;
+  }
+
+  #title {
+    font-size: 1.8em;
+    margin: 20px 0;
+  }
+}
+
